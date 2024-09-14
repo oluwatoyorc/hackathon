@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toyosi - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    /* Global Styles */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #001f3f;
+        color: #333;
+        line-height: 1.6;
+    }
+    
+    header {
+        background-color: #3498db;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        text-align: center;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    
+    nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    
+    section {
+        padding: 20px;
+        margin: 20px auto;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        max-width: 1200px;
+    }
+    
+    h2, h3 {
+        text-align: center;
+        font-family: 'Arial', sans-serif;
+        color: #3498db;
+        margin-bottom: 20px;
+    }
+    
+    h2 {
+        font-size: 2.5rem;
+    }
+    
+    h3 {
+        font-size: 1.75rem;
+    }
+    
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+    
+    #capabilities, #education, #experience, #interests {
+        max-width: 1200px;
+        margin: 40px auto;
+        padding: 40px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    
+    #capabilities h2, #education h2, #experience h2, #interests h2 {
+        font-size: 2.5rem;
+        letter-spacing: 1px;
+    }
+    
+    #capabilities ul, #education ul, .experience-item, #interests ul, {
+        list-style: none;
+        padding: 0;
+    }
+    
+    #capabilities ul li, .education-item, .experience-item, #interests ul li, {
+        background-color: #fff;
+        margin: 10px 0;
+        padding: 15px;
+        font-size: 1.1rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    }
+    
+    #capabilities ul li:hover, .education-item:hover, .experience-item:hover, #interests ul li:hover, {
+        background-color: #e6f7ff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transform: translateY(-3px);
+        transition: all 0.3s ease;
+    }
+    
+    #capabilities ul li:before, #interests ul li:before {
+        content: '✔';
+        color: #3498db;
+        font-weight: bold;
+        margin-right: 15px;
+    }
+    
+    #education .education-item span, .experience-item span {
+        display: block;
+        font-size: 1rem;
+        color: #888;
+        margin-bottom: 10px;
+    }
+    
+    #education .education-item p, .experience-item p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        color: #555;
+        background-color: #f4f4f9;
+        padding: 15px;
+        border-left: 4px solid #3498db;
+        border-radius: 4px;
+    }
+    
+    #interests p, {
+        font-size: 18px;
+        line-height: 1.6;
+        color: #7f8c8d;
+    }
+    
+    #interests a, {
+        display: inline-block;
+        padding: 12px 25px;
+        background-color: #3498db;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+    }
+    
+    #interests a:hover, {
+        background-color: #2980b9;
+    }
+    
+    @media (max-width: 768px) {
+        section {
+            padding: 20px;
+        }
+    
+        h2 {
+            font-size: 2rem;
+        }
+    
+        h3 {
+            font-size: 1.5rem;
+        }
+    
+        #capabilitiess ul li, .education-item, .experience-item, #interests ul li, {
+            font-size: 1rem;
+        }
+    
+        #interests a, {
+            font-size: 14px;
+            padding: 10px 20px;
+        }
+    }
+</style>
+    
+</head>
+<body>
+    <header>
+        <h1>TOYOSI OSHODI</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#capabilities">Capabilities</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am excited to leverage my skills and experience to contribute to innovative projects and collaborations</p>
+    </section>
+    <section id="Capabilities">
+        <h2>Technical Skills</h2>
+        <h3>Web Development</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+        <h3>Database Language</h3>
+        <ul>
+            <li>MySQL</li>
+        </ul>
+        <h2>Soft Skills</h2>
+        <ul>
+            <li>Efficient Communication</li>
+            <li>Teamwork</li>
+            <li>Time Management</li>
+            <li>Leadership</li>
+            <li>Problem Solving</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+            <li><strong>Geoinformatics Information Technology (MSc)</strong> at <em>University of Lagos, Lagos State, Nigeria</em> (2022)</li>
+            <li><strong>Computer Science (BSc)</strong> at <em>Oduduwa University, Ipetumodu, Osun Statea, Nigeria</em> (2015)</li>
+        <p>more information: <a href="Resume.pdf">download</a> </p>
+    </section>
+
+    <!-- New Experience Section -->
+    <section id="experience">
+        <h2>Experience</h2>
+        <ul>
+            <li><strong>Subject Teacher</strong> at <em>Ase Group of Schools</em> (2016-2017)</li>
+            <li><strong>Industrial Training</strong> at <em>Lagos State Government</em> (2014)</li>
+            <!-- Add more experiences -->
+        </ul>
+    </section>
+    
+    <section id="interests">
+        <h2>Interests</h2>
+        <ul>
+            <li>Programming Languages (Python, Javascript)</li>
+            <li>Full-Stack Web Development</li>
+            <li>Data Analysis</li>
+            <li>Cybersecurity</li>
+        </ul>
+    </section>
+   <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
